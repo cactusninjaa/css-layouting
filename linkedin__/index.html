@@ -1,0 +1,45 @@
+<!-- L’EXO
+Savez-vous qui vous êtes ?
+
+Structure grid 
+Navbar + main + aside
+Navbar : Osef de ce qu’il y a dedans mais en fixed
+Dans le main, la même structure (background image + section en dessous avec nom + description + image en absolute)
+Dans l’aside, lien du profil en sticky
+
+Attention dans votre grid, align-items: flex-start à mettre -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likedin deg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <nav>
+            <div class="wrapper">
+                <img src="sources/linkedin.webp" alt="logo">
+                <h1>Mon profil</h1>
+            </div>
+        </nav>
+        <main>
+            <img src="sources/banière.png" alt="banière">
+            <img class="pp" src="sources/user.png" alt="user pp">
+            <div class="texte">
+                <h2>Thomas Sauvage</h2>
+                <p>Élève IIM digital school</p>
+            </div>
+        </main>
+        <aside>
+            <h2>Retrouve moi ici</h3>
+            <a href="www.linkedin.com/in/thomas-sauvage-">
+                www.linkedin.com/in/thomas-sauvage-
+            </a>
+        </aside>
+    </div>
+    
+</body>
+</html>
